@@ -54,7 +54,7 @@ export default {
 <style scoped>
 .flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   place-items: center;
   flex-wrap: wrap;
 }
@@ -63,9 +63,9 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 300px;
+  max-width: 250px;
   min-height: 250px;
-  margin-bottom: 1em;
+  margin: .5em 0 .5em 1em;
   border-radius: 2em;
   overflow: hidden;
   box-shadow: 5px 8px 10px 4px rgba(0, 0, 0, 0.5);
@@ -73,6 +73,7 @@ export default {
 .card h3 {
   margin: 0;
   padding: 0.5em;
+  max-width: 300px;
 }
 .card img {
   max-width: 100%;
