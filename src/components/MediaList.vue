@@ -65,7 +65,7 @@ export default {
   justify-content: space-between;
   max-width: 250px;
   min-height: 250px;
-  margin: .5em 0 .5em 1em;
+  margin: 0.5em 0 0.5em 1em;
   border-radius: 2em;
   overflow: hidden;
   box-shadow: 5px 8px 10px 4px rgba(0, 0, 0, 0.5);
