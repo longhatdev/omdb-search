@@ -3,7 +3,10 @@ This project consumes the [OMDB Api](http://www.omdbapi.com/). You are able to s
 
 ![image](https://user-images.githubusercontent.com/29131220/139852303-4cacf3fa-1aa0-4b2c-ab9f-b2e4763914a4.png)
 
+
+
 ## Project setup
+You need an API key. Simply create a .env file with and set `VUE_APP_OMDB_API_KEY={YOUR_KEY}` with your API key.
 ```
 yarn install
 ```
